@@ -1,0 +1,6 @@
+jekyll:
+    image: dmean/darongmean.com:latest
+    ports:
+        - 4000:4000
+    volumes:
+        - ./posts:/opt/jekyll/_posts
