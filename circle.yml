@@ -16,4 +16,4 @@ deployment:
     branch: master
     commands:
       - REVISION_NUMBER=circle_ci-$(TZ=":Asia/Phnom_Penh" date +%Y%m%d).$CIRCLE_SHA1-$CIRCLE_BUILD_NUM
-      - docker run -v $(pwd)/posts:/opt/jekyll/_posts -e GITHUB_REPO=$GITHUB_REPO --entrypoint=ansible-playbook dmean/darongmean.com:latest -i /opt/ansible/production /opt/ansible/deploy.yml --extra-vars "jekyll_build_revision=$(REVISION_NUMBER)"
+      - docker run -v $(pwd)/posts:/opt/jekyll/_posts -e GITHUB_REPO=$GITHUB_REPO REVISION_NUMBER=$REVISION_NUMBER --entrypoint=ansible-playbook dmean/darongmean.com:latest -i /opt/ansible/production /opt/ansible/deploy.yml
