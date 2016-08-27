@@ -2,7 +2,7 @@ machine:
   services:
     - docker
   environment:
-    REVISION_NUMBER:circle_ci-$(TZ=":Asia/Phnom_Penh" date +%Y%m%d).$CIRCLE_SHA1-$CIRCLE_BUILD_NUM
+    REVISION_NUMBER: circle_ci-$(TZ=":Asia/Phnom_Penh" date +%Y%m%d).$CIRCLE_SHA1-$CIRCLE_BUILD_NUM
 
 dependencies:
   override:
