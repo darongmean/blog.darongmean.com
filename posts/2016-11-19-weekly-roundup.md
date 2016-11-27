@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Notes of the week 2016W46: software design rules, anti-todo, and more..."
+title: "Weekly Roundup: software design rules, anti-todo, and more..."
 comments: true
-description: "Notes of the week 2016W46"
 keywords: "anti-todo, software design rules, concurrent stream processing, deadlines, email address validating"
 ---
 
