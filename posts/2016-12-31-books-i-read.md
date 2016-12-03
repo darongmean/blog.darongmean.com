@@ -8,3 +8,7 @@ keywords: ""
 November
 
 - The Phoenix Project
+
+December
+
+- The Power of Now - A guide to spiritual enlightenment
