@@ -70,6 +70,6 @@ hasCJKLanguage = true
 
 # Add additional social link entries underneath
 [social]
-	facebook-square = "your_facebook_link"
     twitter-square = "https://twitter.com/darong_mean"
     github-square = "https://github.com/darongmean"
+	linkedin-square = "https://www.linkedin.com/in/darongm/"
