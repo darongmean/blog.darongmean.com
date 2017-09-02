@@ -3,7 +3,8 @@ comments: true
 date: 9999-12-31T00:00:00Z
 keywords: ""
 title: 'Interesting Video: ""'
-url: /9999/12/31/interesting-videos-/
+url: /interesting-videos-9999-12-31/
+draft: true
 ---
 
 I've just watched this great video:
