@@ -13,8 +13,8 @@ hasCJKLanguage = true
 	description = "Blog Description"
 	bio = "Blog biology"
 	# Enter optionally your twitter account
-	twitter = "your_twitter"
-	enableRSS = false
+	twitter = "darong_mean"
+	enableRSS = true
 
 	# Disqus comment
 	disqusShortname = "your_disqus_short_name"
@@ -64,12 +64,12 @@ hasCJKLanguage = true
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = ""
 
 
 # Add additional social link entries underneath
 [social]
 	facebook-square = "your_facebook_link"
-  twitter-square = "your_twitter_link"
-  github-square = "your_github_link"
+    twitter-square = "https://twitter.com/darong_mean"
+    github-square = "https://github.com/darongmean"
