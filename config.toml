@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://darongmean.com"
 # HTML Language Code Reference, such as en, zh-cn
-languageCode = "en"
+languageCode = "en-us"
 title = "Darong Mean"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
@@ -55,7 +55,7 @@ hasCJKLanguage = true
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I am so interesting."
+	aboutAuthor = "I am a programmer."
 	tweet = ""
 	share = ""
 	# 404 page

@@ -2,6 +2,7 @@
 date : 2017-09-02T14:31:13+07:00
 title : "About"
 hidden : true
+menu: "main"
 ---
 
 <div style="text-align: center;">
