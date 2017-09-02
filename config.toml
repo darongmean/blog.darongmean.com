@@ -13,7 +13,7 @@ hasCJKLanguage = true
 	description = "Talk about coding and everything about programming."
 	bio = "Programmer - Blogger - Dreamer"
 	# Enter optionally your twitter account
-	twitter = "@darong_mean"
+	twitter = "darong_mean"
 	enableRSS = true
 
 	# Disqus comment
