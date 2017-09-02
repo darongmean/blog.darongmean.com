@@ -1,19 +1,19 @@
 # Site settings
-baseurl = "http://nodejh.com/"
+baseurl = "https://darongmean.com"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
-title = "Blog Title"
+title = "Darong Mean"
 theme = "hugo-theme-cactus-plus"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "your_google_analytics_code"
 hasCJKLanguage = true
 
 [params]
-	name = "Hugo"
-	description = "Blog Description"
-	bio = "Blog biology"
+	name = "Darong Mean"
+	description = "Talk about coding and everything about programming."
+	bio = "Programmer - Blogger - Dreamer"
 	# Enter optionally your twitter account
-	twitter = "darong_mean"
+	twitter = "@darong_mean"
 	enableRSS = true
 
 	# Disqus comment
