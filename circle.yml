@@ -1,0 +1,20 @@
+machine:
+  services:
+    - docker
+  environment:
+    REVISION_NUMBER: circle_ci-$(TZ=":Asia/Phnom_Penh" date +%Y%m%d).${CIRCLE_SHA1:0:8}-$CIRCLE_BUILD_NUM
+
+dependencies:
+  override:
+    - docker pull dmean/darongmean.com:latest || true
+
+test:
+  post:
+    - docker run -d -p 4000:4000 -v $(pwd)/posts:/opt/jekyll/_posts dmean/darongmean.com:latest; sleep 10
+    - curl --retry 10 --retry-delay 5 -v http://localhost:4000
+
+deployment:
+  github:
+    branch: master
+    commands:
+      - docker run -v $(pwd)/posts:/opt/jekyll/_posts -e GITHUB_REPO=$GITHUB_REPO -e REVISION_NUMBER=$REVISION_NUMBER --entrypoint=ansible-playbook dmean/darongmean.com:latest -i /opt/ansible/production /opt/ansible/deploy.yml
