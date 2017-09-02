@@ -3,7 +3,7 @@ baseurl = "https://darongmean.com"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "Darong Mean"
-theme = "hugo-theme-cactus-plus"
+theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "your_google_analytics_code"
 hasCJKLanguage = true
