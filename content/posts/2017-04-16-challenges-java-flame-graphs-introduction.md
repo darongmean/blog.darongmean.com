@@ -3,7 +3,7 @@ comments: true
 date: 2017-04-16T00:00:00Z
 keywords: ""
 title: 'Challenges - Java Flame Graphs Introduction: Fire For Everyone!'
-url: /2017/04/16/challenges-java-flame-graphs-introduction/
+url: /challenges-java-flame-graphs-introduction/
 ---
 
 I've got interested into flame graph and gone through an excellent post [Java Flame Graphs Introduction: Fire For Everyone!](http://psy-lob-saw.blogspot.com/2017/02/flamegraphs-intro-fire-for-everyone.html)
@@ -22,6 +22,7 @@ ERROR: No stack counts found
 ```
 
 Being a beginner, I don't know what happened. So I decided to go through source code. It turned out that `stackcollapse-jstack.pl` filter out some stacks[[^1]] with names like:
+
 - C. CompilerThread
 - Signal Dispatcher
 - Service Thread

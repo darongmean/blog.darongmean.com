@@ -3,30 +3,14 @@ comments: true
 date: 2017-04-20T00:00:00Z
 keywords: boot-clj, docker, nrepl, cljs-repl
 title: How to use boot-clj and nREPL with Docker
-url: /2017/04/20/how-to-use-boot-clj-and-nrepl-with-docker/
+url: /how-to-use-boot-clj-and-nrepl-with-docker/
 ---
 
 There's a great post about [using clojure with docker.](http://blog.dominic.io/vagrant-docker-and-clojure/) I followed the post with a twist. I used `boot-alpine` image[[^1]] and `docker-compose` instead of `Vagrant`.
 
 Here's the final configuration that worked.
 
-- file `build.boot`
-```clojure
-; file build.boot
-(deftask development []
-  (task-options!
-    cljs {:optimizations    :none
-          :source-map       true
-          :compiler-options {:devcards true}}
-    start-repl {:ip "0.0.0.0" :port 9007}
-    cljs-repl {:nrepl-opts {:bind "0.0.0.0" :port 9009}}
-    reload {:on-jsload 'timer.app/reload
-            :port      9011}
-    serve {:port 3000})
-  identity)
 ```
-- file `docker-compose.yml`
-```yaml
 # file docker-compose.yml
 version: '2'
 services:
@@ -49,11 +33,26 @@ services:
       - ./:/opt/src
 ```
 
-### Challenges I faced
+```clojure
+; file build.boot
+(deftask development []
+  (task-options!
+    cljs {:optimizations    :none
+          :source-map       true
+          :compiler-options {:devcards true}}
+    start-repl {:ip "0.0.0.0" :port 9007}
+    cljs-repl {:nrepl-opts {:bind "0.0.0.0" :port 9009}}
+    reload {:on-jsload 'timer.app/reload
+            :port      9011}
+    serve {:port 3000})
+  identity)
+```
+
+## Challenges I faced
 
 Being a beginner in both boot-clj and Docker, I bumped into the following issues.
 
-- I couldn't connect to nREPL running in Docker[[^2]].
+### I couldn't connect to nREPL running in Docker[[^2]].
 
 I got the following error when I used Cursive remote repl to connect.
 ```
@@ -67,7 +66,7 @@ The repl server listens to loopback interface[[^4]] by default. I used the `bind
 cljs-repl {:nrepl-opts {:bind "0.0.0.0" :port 9009}}
 ```
 
-- Boot downloaded dependencies everytime I rebuilt docker images.
+### Boot downloaded dependencies everytime I rebuilt docker images.
 
 I used data container to store `.m2` repositories. I just use the following command to rebuild and start the image:
 ```bash
