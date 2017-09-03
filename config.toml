@@ -5,7 +5,7 @@ languageCode = "en-us"
 title = "Darong Mean"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "your_google_analytics_code"
+googleAnalytics = "UA-75628175-2"
 hasCJKLanguage = true
 
 [params]
@@ -17,9 +17,9 @@ hasCJKLanguage = true
 	enableRSS = true
 
 	# Disqus comment
-	disqusShortname = "your_disqus_short_name"
+	disqusShortname = "darongmean"
 	# Disable disqus comments by set `enableDisqus = "false"`
-	enableDisqus = false
+	enableDisqus = true
 
 	# Duoshuo comment
 	duoshuoShortname = "your_duoshuo_short_name"
@@ -29,7 +29,7 @@ hasCJKLanguage = true
 	enableGithubIssuesTips = false
 
 	# Enable googleAnalytics
-	enableGoogleAnalytics = false
+	enableGoogleAnalytics = true
 
 	# Enable baiduAnalytics
 	enableBaiduAnalytics = false
