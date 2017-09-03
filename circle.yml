@@ -7,7 +7,7 @@ machine:
 test:
   post:
     - chmod +x ./bin/linux/0.26/hugo
-    - ./bin/linux/0.26/hugo server &
+    - nohub ./bin/linux/0.26/hugo server &
     - curl --retry 10 --retry-delay 5 -v http://localhost:1313
 
 deployment:
