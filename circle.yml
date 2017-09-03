@@ -6,7 +6,7 @@ machine:
 
 test:
   post:
-    - echo "TODO: add test"
+    - echo "TODO add some tests"
 
 deployment:
   github:
