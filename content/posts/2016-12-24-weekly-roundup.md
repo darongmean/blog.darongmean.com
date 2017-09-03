@@ -2,8 +2,8 @@
 comments: true
 date: 2016-12-24T00:00:00Z
 keywords: ""
-title: Weekly Roundup
-url: /2016/12/24/weekly-roundup/
+title: Weekly Roundup 2016/12/24
+url: /weekly-roundup-2016-12-24/
 ---
 
 ## Books

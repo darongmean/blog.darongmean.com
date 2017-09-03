@@ -2,7 +2,7 @@
 comments: true
 date: 2016-11-19T00:00:00Z
 keywords: anti-todo, software design rules, concurrent stream processing, deadlines, email address validating
-title: 'Weekly Roundup: software design rules, anti-todo, and more...'
+title: Weekly Roundup 2016/11/19
 url: /weekly-roundup-2016-11-19/
 ---
 - [Forget To-Do Lists, What You Really Need Are Anti-To-Do Lists](http://news.bitofnews.com/forget-to-do-lists-what-you-really-need-are-not-to-do-lists/) 
