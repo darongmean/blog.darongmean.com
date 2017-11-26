@@ -10,7 +10,7 @@ hasCJKLanguage = true
 
 [params]
 	name = "Darong Mean"
-	description = "Talk about coding and everything about programming."
+	description = "My little collection of thoughts..."
 	bio = "Programmer - Blogger - Geek"
 	# Enter optionally your twitter account
 	twitter = "darong_mean"
