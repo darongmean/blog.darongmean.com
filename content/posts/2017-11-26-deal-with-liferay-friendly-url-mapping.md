@@ -17,6 +17,6 @@ Liferay has default url start with `/web`, `/group` and `/user` to identify if t
 ![ROOT/WEB-INF/web.xml](/images/2017-11-26-deal-with-liferay-friendly-url-mapping-2.png)
 
 
-I’ve got weird error after edit web.xml and Liferay startup with errors. Try to delete temp and work folder of tomcat help resolve this issue.
+I’ve got weird error after edit web.xml and Liferay startup with errors. Try to delete `temp` and `work` folder of tomcat help resolve this issue.
 
 Above changes were tested on Liferay 6.2.
