@@ -18,7 +18,7 @@ title404 = "Nothing's here!"
 
 [params.assets]
 favicon = "images/favicon.ico"
-customCSS = []
+customCSS = ["/css/custom.css"]
 customJS = []
 gopher = ""
 
