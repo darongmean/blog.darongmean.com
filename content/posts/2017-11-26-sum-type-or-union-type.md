@@ -3,7 +3,7 @@ comments: true
 date: 2017-11-26T00:00:00Z
 keywords: sum type, union type
 title: Sum Type/Union Type
-url: /sum-type-or-union-type
+url: /post/sum-type-or-union-type
 ---
 
 ## In Java

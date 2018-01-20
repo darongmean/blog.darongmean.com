@@ -3,7 +3,7 @@ comments: true
 date: 2017-11-26T00:00:00Z
 keywords: html, anchor, target
 title: HTML Anchor <a> - target attribute
-url: /html-anchor-target-attribute
+url: /post/html-anchor-target-attribute
 ---
 
 http://stackoverflow.com/a/8867079

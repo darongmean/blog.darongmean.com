@@ -3,7 +3,7 @@ comments: true
 date: 2017-11-26T00:00:00Z
 keywords: naming, convention, clojure, java
 title: Naming Convention
-url: /naming-convention
+url: /post/naming-convention
 ---
 
 ## as… 

@@ -3,7 +3,7 @@ comments: true
 date: 2017-04-16T00:00:00Z
 keywords: ""
 title: 'Challenges - Java Flame Graphs Introduction: Fire For Everyone!'
-url: /challenges-java-flame-graphs-introduction/
+url: /post/challenges-java-flame-graphs-introduction/
 ---
 
 I've got interested into flame graph and gone through an excellent post [Java Flame Graphs Introduction: Fire For Everyone!](http://psy-lob-saw.blogspot.com/2017/02/flamegraphs-intro-fire-for-everyone.html)

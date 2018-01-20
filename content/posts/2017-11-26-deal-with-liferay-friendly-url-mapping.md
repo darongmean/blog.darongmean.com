@@ -3,7 +3,7 @@ comments: true
 date: 2017-11-26T00:00:00Z
 keywords: liferay 6.2, friendly url
 title: Deal with Liferay Friendly URL Mapping
-url: /deal-with-liferay-friendly-url-mapping
+url: /post/deal-with-liferay-friendly-url-mapping
 ---
 
 Liferay has default url start with `/web`, `/group` and `/user` to identify if the page is public, private, or user’s private. The mappings can be changed by modify file `portal-ext.properties` and `ROOT/WEB-INF/web.xml`.

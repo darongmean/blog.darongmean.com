@@ -3,7 +3,7 @@ comments: true
 date: 2017-11-26T00:00:00Z
 keywords: java, instanceof, autobox
 title: Hell with Java Autobox or Why not use instanceof
-url: /hell-with-java-autobox-or-why-not-use-instanceof
+url: /post/hell-with-java-autobox-or-why-not-use-instanceof
 ---
 
 I spent few days debugging problem; the following code not work

@@ -3,7 +3,7 @@ comments: true
 date: 2017-11-26T00:00:00Z
 keywords: git, delete, files
 title: Git - working with deleted files
-url: /git-working-with-deleted-files
+url: /post/git-working-with-deleted-files
 ---
 
 Scenario: you notice that a file is deleted and you want to recover it.

@@ -3,7 +3,7 @@ comments: true
 date: 2017-04-20T00:00:00Z
 keywords: boot-clj, docker, nrepl, cljs-repl
 title: How to use boot-clj and nREPL with Docker
-url: /how-to-use-boot-clj-and-nrepl-with-docker/
+url: /post/how-to-use-boot-clj-and-nrepl-with-docker/
 ---
 
 There's a great post about [using clojure with docker.](http://blog.dominic.io/vagrant-docker-and-clojure/) I followed the post with a twist. I used `boot-alpine` image[[^1]] and `docker-compose` instead of `Vagrant`.
