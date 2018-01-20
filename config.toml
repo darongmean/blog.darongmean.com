@@ -1,79 +1,88 @@
-# Site settings
+# see https://minimo.netlify.com/docs/installation/
+
 baseurl = "https://darongmean.com"
-# HTML Language Code Reference, such as en, zh-cn
-languageCode = "en-us"
 title = "Darong Mean"
-theme = "hugo-cactus-theme"
-# Enter your tracking code to enable Google Analytics
+copyright = ""
+theme = "minimo"
 googleAnalytics = "UA-75628175-2"
-hasCJKLanguage = true
+disqusShortname = ""
+Paginate = 5
+preserveTaxonomyNames = true
+enableRobotsTXT = true
+pygmentsCodefences = true
+defaultContentLanguage = "en"
+
+[params.info]
+description = "Programmer - (Procrastinating) Blogger - (Casual) Gamer"
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = "images/favicon.ico"
+customCSS = []
+customJS = []
+gopher = ""
+
+[params.copyright]
+prefix = ""
+holder = "Darong Mean"
+startYear = "2016"
+suffix = ""
+
+[params.settings]
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = ["page"]
+recentPostsLength = 100
+hideSocialMenu = false
+showReadingTime = true
+noTermCloudShuffle = false
+homepageSections = ["recent_posts"]
+
+[params.opengraph.facebook]
+admins = []
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = ""
+
+[params.seo]
+titleSeparator = "•"
+
+[params.social]
+github = "darongmean"
+linkedin = "darongm"
+twitter = "darong_mean"
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin","telegram","google_scholar"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+[[menu.main]]
+name = "Blog"
+weight = -10
+identifier = "post"
+url = "/"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
 
 [params]
-	name = "Darong Mean"
-	description = "My little collection of thoughts..."
-	bio = "Programmer - Blogger - Geek"
-	# Enter optionally your twitter account
-	twitter = "darong_mean"
-	enableRSS = true
+# Enable rollbar.com
+enableRollbar = true
+rollbarAccessToken = "43aac4bbe89e471eb0c4e16dddc06414"
+rollbarEnvironment = "production"
 
-	# Disqus comment
-	disqusShortname = "darongmean"
-	# Disable disqus comments by set `enableDisqus = "false"`
-	enableDisqus = false
-
-	# Duoshuo comment
-	duoshuoShortname = "your_duoshuo_short_name"
-	# Disable duoshuo comments by set `enableDuoshuo = "false"`
-	enableDuoshuo = false
-
-	enableGithubIssuesTips = false
-
-	# Enable googleAnalytics
-	enableGoogleAnalytics = true
-
-	# Enable baiduAnalytics
-	enableBaiduAnalytics = false
-	# Baidu Tongji Code
-	baiduAnalytics = 'your_baidu_tongji_code'
-
-	# Add custom assets with their paths relative to the static folder
-	customCSS = []
-	customJS  = []
-
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
-
-	# Navigation links
-	home = ""
-	about = ""
-	archive = ""
-	subscribe = ""
-	tags = ""
-	# Pagination links
-	olderPosts = ""
-	newerPosts = ""
-	readMore = ""
-	copyright = ""
-	# Sharing options and author information in posts
-	aboutAuthor = "I am a programmer."
-	tweet = ""
-	share = ""
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
-        # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-        socialIconStyle = ""
-    
-	# Enable rollbar.com
-	enableRollbar = true
-	rollbarAccessToken = "43aac4bbe89e471eb0c4e16dddc06414"
-        rollbarEnvironment = "production"
-
-# Add additional social link entries underneath
-[social]
-        twitter-square = "https://twitter.com/darong_mean"
-        github-square = "https://github.com/darongmean"
-	linkedin-square = "https://www.linkedin.com/in/darongm/"
