@@ -23,27 +23,32 @@ mkdir -p cljs/hello
 vim cljs/hello/core.cljs
 cat cljs/hello/core.cljs
 ```
+
 ```clojure
 (ns hello.core)
 
 (defn foo []
   (js/alert "Hello from CLJS!"))
 ```
+
 ```bash
 mkdir js
 vim js/.babelrc
 cat js/.babelrc
 ```
+
 ```json
 {
     "ignore": ["*.js"]
 }
 ```
+
 ```bash
 shadow-cljs init
 vim shadow-cljs.edn
 cat shadow-cljs.edn
 ```
+
 ```clojure
 {:source-paths
  ["cljs"]
@@ -57,10 +62,12 @@ cat shadow-cljs.edn
         :entries    [hello.core]
         :output-dir "js"}}}
 ```
+
 ```bash
 vim index.js
 cat index.js
 ```
+
 ```js
 import { AppRegistry } from 'react-native';
 import App from './App';
@@ -73,7 +80,7 @@ foo();
 
 ### Start development
 
-```bash
+```
 yarn shadow-cljs watch app
 react-native run-ios
 ```
