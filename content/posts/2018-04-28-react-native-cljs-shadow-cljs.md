@@ -15,7 +15,7 @@ url: /post/react-native-cljs-shadow-cljs
 
 I installed `npm`, `yarn`, `react-native-cli`, `XCode`, `shadow-cljs`, and used the following commands to create the project.
 
-```bash
+```
 react-native init FunanMobile
 cd FunanMobile
 yarn add --dev shadow-cljs
@@ -31,7 +31,7 @@ cat cljs/hello/core.cljs
   (js/alert "Hello from CLJS!"))
 ```
 
-```bash
+```
 mkdir js
 vim js/.babelrc
 cat js/.babelrc
@@ -43,7 +43,7 @@ cat js/.babelrc
 }
 ```
 
-```bash
+```
 shadow-cljs init
 vim shadow-cljs.edn
 cat shadow-cljs.edn
@@ -63,7 +63,7 @@ cat shadow-cljs.edn
         :output-dir "js"}}}
 ```
 
-```bash
+```
 vim index.js
 cat index.js
 ```
