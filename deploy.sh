@@ -3,7 +3,7 @@
 github_repo=git@github.com:darongmean/darongmean.github.io.git
 rootDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 build_dest=$rootDir/public
-hugo=$rootDir/bin/linux/0.26/hugo
+hugo=$rootDir/bin/linux/0.40/hugo
 
 echo "git clone $github_repo $build_dest"
 git clone $github_repo $build_dest

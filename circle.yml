@@ -19,6 +19,6 @@ deployment:
     commands:
       - git config --global user.name "zero.d"
       - git config --global user.email "zero.darong@gmail.com"
-      - chmod +x ./bin/linux/0.26/hugo
+      - chmod +x ./bin/linux/0.40/hugo
       - chmod +x ./deploy.sh
       - ./deploy.sh
