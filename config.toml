@@ -1,88 +1,94 @@
-# see https://minimo.netlify.com/docs/installation/
+###- Hugo Settings
 
-baseurl = "https://darongmean.com"
+# baseurl = "https://darongmean.com"
 title = "Darong Mean"
-copyright = ""
-theme = "minimo"
-googleAnalytics = "UA-75628175-2"
-disqusShortname = ""
-Paginate = 5
-preserveTaxonomyNames = true
-enableRobotsTXT = true
-pygmentsCodefences = true
-defaultContentLanguage = "en"
+# copyright = ""
 
-[params.info]
-description = "Programmer - (Procrastinating) Blogger - (Casual) Gamer"
-title404 = "Nothing's here!"
+###- Theme Specific Setttings
 
-[params.assets]
-favicon = "images/favicon.ico"
-customCSS = ["/css/custom.css"]
-customJS = []
-gopher = ""
+theme = "paperesque"
 
-[params.copyright]
-prefix = ""
-holder = "Darong Mean"
-startYear = "2016"
-suffix = ""
 
-[params.settings]
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-hideEntryNavigation = ["page"]
-recentPostsLength = 100
-hideSocialMenu = false
-showReadingTime = true
-noTermCloudShuffle = false
-homepageSections = ["recent_posts"]
 
-[params.opengraph.facebook]
-admins = []
-appID = ""
-pageID = ""
+# googleAnalytics = "UA-75628175-2"
+# disqusShortname = ""
+# Paginate = 5
+# preserveTaxonomyNames = true
+# enableRobotsTXT = true
+# pygmentsCodefences = true
+# defaultContentLanguage = "en"
 
-[params.opengraph.twitter]
-page = ""
+# [params.info]
+# description = "Programmer - (Procrastinating) Blogger - (Casual) Gamer"
+# title404 = "Nothing's here!"
 
-[params.seo]
-titleSeparator = "•"
+# [params.assets]
+# favicon = "images/favicon.ico"
+# customCSS = ["/css/custom.css"]
+# customJS = []
+# gopher = ""
 
-[params.social]
-github = "darongmean"
-linkedin = "darongm"
-twitter = "darong_mean"
+# [params.copyright]
+# prefix = ""
+# holder = "Darong Mean"
+# startYear = "2016"
+# suffix = ""
 
-[params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin","telegram","google_scholar"]
+# [params.settings]
+# dateFormat = "2006, Jan 02"
+# listDateFormat = "2006, Jan 02"
+# hideEntryNavigation = ["page"]
+# recentPostsLength = 100
+# hideSocialMenu = false
+# showReadingTime = true
+# noTermCloudShuffle = false
+# homepageSections = ["recent_posts"]
 
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
+# [params.opengraph.facebook]
+# admins = []
+# appID = ""
+# pageID = ""
 
-[permalinks]
-page = "/:slug/"
+# [params.opengraph.twitter]
+# page = ""
 
-[[menu.main]]
-name = "Blog"
-weight = -10
-identifier = "post"
-url = "/"
+# [params.seo]
+# titleSeparator = "•"
 
-[blackfriday]
-hrefTargetBlank = true
+# [params.social]
+# github = "darongmean"
+# linkedin = "darongm"
+# twitter = "darong_mean"
 
-[languages]
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+# [params.social.config]
+# platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin","telegram","google_scholar"]
 
-[params]
-# Enable rollbar.com
-enableRollbar = true
-rollbarAccessToken = "43aac4bbe89e471eb0c4e16dddc06414"
-rollbarEnvironment = "production"
+# [taxonomies]
+# author = "authors"
+# category = "categories"
+# tag = "tags"
+
+# [permalinks]
+# page = "/:slug/"
+
+# [[menu.main]]
+# name = "Blog"
+# weight = -10
+# identifier = "post"
+# url = "/"
+
+# [blackfriday]
+# hrefTargetBlank = true
+
+# [languages]
+# [languages.en]
+# lang = "en"
+# languageName = "English"
+# weight = 1
+
+# [params]
+# # Enable rollbar.com
+# enableRollbar = true
+# rollbarAccessToken = "43aac4bbe89e471eb0c4e16dddc06414"
+# rollbarEnvironment = "production"
 
