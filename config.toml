@@ -1,14 +1,60 @@
 ###- Hugo Settings
 
-# baseurl = "https://darongmean.com"
 title = "Darong Mean"
-# copyright = ""
 
 ###- Theme Specific Setttings
 
 theme = "paperesque"
+baseURL = "https://darongmean.com"
+languageCode = "en-us"
+# We're building drafts in config so that you can see them in the example on
+# Hugo Themes; you almost certainly don't want this on your production site
+#buildDrafts = true
 
+[params]
+# Turn this on if you want to disable margin notes everywhere!
+#disableMarginNotes = true
 
+# see
+# - https://peterlyons.com/
+# - http://www.jsab.me/
+[[params.menu]]
+  name = "TODO: contact"
+  url = "posts/"
+
+[[params.menu]]
+  name = "TODO: career"
+  url = "posts/"
+
+[[params.menu]]
+  name = "TODO: practices"
+  url = "posts/"
+
+[[params.menu]]
+  name = "TODO: stacks"
+  url = "posts/"
+
+[[params.menu]]
+  name = "TODO: code conventions"
+  url = "posts/"
+
+[[params.menu]]
+  name = "TODO: projects"
+  url = "posts/"
+
+[[params.menu]]
+  name = "TODO: talks"
+  url = "posts/"
+
+# And your top-right menu links here.
+[[params.topmenu]]
+  name = "archive"
+  url = "posts/"
+
+# TODO: add link to theme in about page
+[[params.topmenu]]
+  name = "about"
+  url = "about/"
 
 # googleAnalytics = "UA-75628175-2"
 # disqusShortname = ""
