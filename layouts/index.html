@@ -1,0 +1,53 @@
+{{ define "body-classes" -}}
+  look-sheet-bkg
+{{- end }}
+
+
+{{ define "content" }}
+  <ul id="list" class="list-unstyled">
+
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+    {{ range $paginator.Pages }}
+    
+      <li class="{{if .Draft }}draft{{ end }}">
+        {{- partial "single-article2" . -}}
+      </li>
+  
+    {{ end }}
+  
+  </ul>
+{{ end }}
+
+{{ define "footer" }}
+  {{- partial "single-footer-customisation" . -}}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+  {{if gt $paginator.TotalPages 1 }}
+
+    <div class="nav-bkg-50 content-container-narrow-pad bottom-links text-0p75 drop-shadow">
+      <nav class="flex-row">
+
+      {{if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="flex-row v-center no-underline"  style="max-width:45%;">
+        <span class="text-1p5">←</span>&nbsp;<span class="re-underline">Previous Page</span>
+      </a>
+
+      {{else}}
+
+        <span class="flex-row v-center"></span>
+
+      {{end}}
+      {{if $paginator.HasNext}}
+
+        <a href="{{ $paginator.Next.URL }}" class="flex-row v-center no-underline" style="max-width: 45%;">
+        <span class="re-underline">Next Page</span>&nbsp;<span class="text-1p5">→</span>
+        </a>
+
+      {{else}}
+
+        <span class="flex-row v-center"></span>
+
+      {{end}}
+      </nav>
+    </div>
+  {{ end }}
+{{ end }}

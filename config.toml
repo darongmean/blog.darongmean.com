@@ -1,6 +1,7 @@
 ###- Hugo Settings
 
 title = "Darong Mean"
+paginate = 50
 
 ###- Theme Specific Setttings
 
@@ -12,8 +13,17 @@ languageCode = "en-us"
 #buildDrafts = true
 
 [params]
+  author = "Darong Mean"
+# feature image
+# the order of lookup is
+# - images metadata on the post article
+# - image file in folder /static/images/ that has name contains "feature"
+# - image file in folder /static/images/ that has name contains "cover"
+# - image file in folder /static/images/ that has name contains "thumbnail"
+# - images param on config.toml
+  images = ["/images/avatar@2x.png"]
 # Turn this on if you want to disable margin notes everywhere!
-#disableMarginNotes = true
+#  disableMarginNotes = true
 
 # see
 # - https://peterlyons.com/
@@ -47,6 +57,10 @@ languageCode = "en-us"
   url = "posts/"
 
 # And your top-right menu links here.
+[[params.topmenu]]
+  name = "menu"
+  url = "menu/"
+
 [[params.topmenu]]
   name = "archive"
   url = "posts/"
