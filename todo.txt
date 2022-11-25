@@ -1,0 +1,5 @@
+- missing /site.webmanifest
+- proper menu
+- proper about page
+- hugo deploy
+- 
