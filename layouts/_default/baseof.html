@@ -22,6 +22,12 @@
     {{ partial "head_includes.html" . }}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Panelbear -->
+<script async src="https://cdn.panelbear.com/analytics.js?site=5Ms17CYbCwv"></script>
+<script>
+    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+    panelbear('config', { site: '5Ms17CYbCwv' });
+</script>
   </head>
   <body
   class="{{ block "body-classes" . }}{{ end }}"
