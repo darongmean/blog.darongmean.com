@@ -28,38 +28,38 @@ languageCode = "en-us"
 # see
 # - https://peterlyons.com/
 # - http://www.jsab.me/
-[[params.menu]]
-  name = "TODO: contact"
-  url = "posts/"
+# [[params.menu]]
+#   name = "TODO: contact"
+#   url = "posts/"
 
-[[params.menu]]
-  name = "TODO: career"
-  url = "posts/"
+# [[params.menu]]
+#   name = "TODO: career"
+#   url = "posts/"
 
-[[params.menu]]
-  name = "TODO: practices"
-  url = "posts/"
+# [[params.menu]]
+#   name = "TODO: practices"
+#   url = "posts/"
 
-[[params.menu]]
-  name = "TODO: stacks"
-  url = "posts/"
+# [[params.menu]]
+#   name = "TODO: stacks"
+#   url = "posts/"
 
-[[params.menu]]
-  name = "TODO: code conventions"
-  url = "posts/"
+# [[params.menu]]
+#   name = "TODO: code conventions"
+#   url = "posts/"
 
-[[params.menu]]
-  name = "TODO: projects"
-  url = "posts/"
+# [[params.menu]]
+#   name = "TODO: projects"
+#   url = "posts/"
 
-[[params.menu]]
-  name = "TODO: talks"
-  url = "posts/"
+# [[params.menu]]
+#   name = "TODO: talks"
+#   url = "posts/"
 
 # And your top-right menu links here.
-[[params.topmenu]]
-  name = "menu"
-  url = "menu/"
+# [[params.topmenu]]
+#   name = "menu"
+#   url = "menu/"
 
 [[params.topmenu]]
   name = "archive"
