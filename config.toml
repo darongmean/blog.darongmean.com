@@ -3,6 +3,9 @@
 title = "Darong Mean"
 paginate = 50
 
+ignoreFiles = ['_templates/hugo-front-matters\.md$']
+
+
 ###- Theme Specific Setttings
 
 theme = "paperesque"

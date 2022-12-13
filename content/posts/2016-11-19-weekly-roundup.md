@@ -34,5 +34,3 @@ url: /post/weekly-roundup-2016-11-19/
 - [Stop Validating Email Addresses With Regex](https://davidcel.is/posts/stop-validating-email-addresses-with-regex/)
 
 > Just send them an email already
-
-
